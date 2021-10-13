@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Microsoft.Extensions.Logging;
-
-using WebStore.Data;
 using WebStore.Domain.Entities;
+using WebStore.Services.Data;
 using WebStore.Services.Interfaces;
 
-namespace WebStore.Services.InMemory
+namespace WebStore.Services.Services.InMemory
 {
     public class InMemoryEmployesData : IEmployeesData
     {
