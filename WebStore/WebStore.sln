@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{58CAE5DA-44C9-4B32-A82D-C2BC15C83909}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6047DA77-B4F9-41FC-884C-FC6D253DF3F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DC159D87-19E5-4D82-AB9E-14B71BB89A6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E2C3F708-B39E-4E61-A8E9-E1BEF3A1BD2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.Domain", "Common\WebStore.Domain\WebStore.Domain.csproj", "{2C0FC4DF-2DA1-461A-896D-4798B6F08276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.DAL", "Data\WebStore.DAL\WebStore.DAL.csproj", "{D09FC2EE-DC5C-40C6-8DA0-3DFA0881D3CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.DAL.Sqlite", "Data\WebStore.DAL.Sqlite\WebStore.DAL.Sqlite.csproj", "{12108C74-2063-4AE7-87F6-00B20DCA115B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore", "UI\WebStore\WebStore.csproj", "{2E2728AE-62CA-46BC-A461-78D43600F3B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C0FC4DF-2DA1-461A-896D-4798B6F08276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0FC4DF-2DA1-461A-896D-4798B6F08276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0FC4DF-2DA1-461A-896D-4798B6F08276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0FC4DF-2DA1-461A-896D-4798B6F08276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09FC2EE-DC5C-40C6-8DA0-3DFA0881D3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09FC2EE-DC5C-40C6-8DA0-3DFA0881D3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09FC2EE-DC5C-40C6-8DA0-3DFA0881D3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09FC2EE-DC5C-40C6-8DA0-3DFA0881D3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12108C74-2063-4AE7-87F6-00B20DCA115B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12108C74-2063-4AE7-87F6-00B20DCA115B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12108C74-2063-4AE7-87F6-00B20DCA115B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12108C74-2063-4AE7-87F6-00B20DCA115B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2728AE-62CA-46BC-A461-78D43600F3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2728AE-62CA-46BC-A461-78D43600F3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2728AE-62CA-46BC-A461-78D43600F3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2728AE-62CA-46BC-A461-78D43600F3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C0FC4DF-2DA1-461A-896D-4798B6F08276} = {58CAE5DA-44C9-4B32-A82D-C2BC15C83909}
+		{D09FC2EE-DC5C-40C6-8DA0-3DFA0881D3CD} = {DC159D87-19E5-4D82-AB9E-14B71BB89A6F}
+		{12108C74-2063-4AE7-87F6-00B20DCA115B} = {DC159D87-19E5-4D82-AB9E-14B71BB89A6F}
+		{2E2728AE-62CA-46BC-A461-78D43600F3B6} = {E2C3F708-B39E-4E61-A8E9-E1BEF3A1BD2A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {297E7218-A7F0-42AB-98AD-5F973272021B}
+	EndGlobalSection
+EndGlobal
